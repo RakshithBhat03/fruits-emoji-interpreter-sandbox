@@ -1,0 +1,83 @@
+:root {
+  --primary-color: #8b5cf6;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+input {
+  padding: 1rem;
+  margin: 1rem;
+  width: 40%;
+  border: 2px var(--primary-color) solid;
+  height: 10%;
+}
+.navigation {
+  text-align: center;
+  border-bottom: 3px var(--primary-color) solid;
+  margin: 0px;
+  padding: 0px 1rem;
+  width: 100%;
+}
+h1 {
+  font-size: 2rem;
+}
+.fruitsList {
+  padding: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  margin: 0.5rem;
+}
+.fruitsList:hover {
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+}
+.meaning {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.inputTextBox {
+  font-size: 1.2rem;
+}
+.main-div {
+  width: 100%;
+  padding: 3rem 0rem 10rem 0rem;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+}
+footer {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+  border-top: 3px var(--primary-color) solid;
+}
+.footer-socials {
+  color: var(--primary-color);
+  margin: 1rem auto;
+  font-weight: bold;
+}
+.h2-question {
+  font-size: 2rem;
+}
+.lists {
+  padding-inline-start: 0px;
+  margin-top: 1.5rem;
+}
+.list-inline {
+  display: inline;
+}
+.links {
+  cursor: pointer;
+  text-decoration: none;
+  margin: 1rem 1rem;
+  color: var(--primary-color);
+}
