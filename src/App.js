@@ -39,7 +39,7 @@ export default function App() {
         <h2 className="h2-question">Do you know your emojis?</h2>
         <input className="inputTextBox" onChange={emojiInputHandler}></input>
         <div className="meaning">{meaning}</div>
-        <h2>
+        <h2 style={{ fontSize: "2rem" }}>
           <span style={{ color: "var(--primary-color)" }}>emojis</span> we know
         </h2>
         <div>
