@@ -60,17 +60,20 @@ export default function App() {
         <div className="footer-socials">My Socials</div>
         <ul className="lists">
           <li className="list-inline">
-            <a href="#" className="links">
+            <a href="https://github.com/RakshithBhat03" className="links">
               Github
             </a>
           </li>
           <li className="list-inline">
-            <a href="#" className="links">
+            <a
+              href="https://www.linkedin.com/in/rakshithbhat/"
+              className="links"
+            >
               Linkedin
             </a>
           </li>
           <li className="list-inline">
-            <a href="#" className="links">
+            <a href="https://twitter.com/RakshithBhat1" className="links">
               Twitter
             </a>
           </li>
