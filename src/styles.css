@@ -7,7 +7,8 @@
 }
 body {
   margin: 0;
-  overflow-x: hidden;
+  overflow: hidden;
+  height: 100vh;
 }
 input {
   padding: 1rem;
@@ -28,7 +29,7 @@ h1 {
 }
 .fruitsList {
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   cursor: pointer;
 
   margin: 0.5rem;
@@ -39,15 +40,16 @@ h1 {
 }
 .meaning {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   margin-top: 1rem;
 }
 .inputTextBox {
-  font-size: 1.2rem;
+  font-size: 2.5rem;
 }
 .main-div {
   width: 100%;
-  padding: 3rem 0rem 10rem 0rem;
+  height: 570px;
+  padding: 80px 0px;
   display: block;
   text-align: center;
   overflow: hidden;
@@ -56,9 +58,13 @@ h1 {
 footer {
   text-align: center;
   width: 100%;
+  position: fixed;
+  bottom: 0;
   margin: 0;
   padding: 1rem;
   border-top: 3px var(--primary-color) solid;
+  overflow: hidden;
+  clear: both;
 }
 .footer-socials {
   color: var(--primary-color);
